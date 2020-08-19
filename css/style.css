@@ -1,0 +1,341 @@
+/* 
+           Master Stylesheet
+    ============================
+    Template Name :Minimo || HTML Template
+    Author: Md. Nur Nobi
+    Author url: https://onlynurnobi.com;
+    Descriptions: Minimal Blog Templete
+    Version: 1.0.0
+    Tag: blog, two colluom
+
+ */
+
+/*
+           Table of Content
+        =====================
+ 1. Typrography
+ 2.
+ 3.
+ 4.
+ 5.
+ 6.
+
+
+
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Ubuntu:wght@300&display=swap');
+
+
+font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif;*/
+body{
+	margin:0;
+	padding:0;
+	font-family:'Playfair Display', serif;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0;
+	font-family:'Playfair Display', serif;
+	font-weight: 400;
+	font-size:30px;
+	line-height:35px; 
+	color:#626262;
+
+}
+h4{
+	font-family: 'Ubuntu', sans-serif;*/
+	font-weight:300;
+	color:#b4ad9e;
+
+
+}
+p{
+	font-family:'Playfair Display', serif;
+	font-weight: 400;
+	font-size:14px;
+	line-height:25px; 
+	color:#626262;
+
+
+}
+a{
+	font-family:'Playfair Display', serif;
+	text-decoration: none;
+	color:#626262;
+}
+
+
+
+
+/*==================================
+	HEADER START HERE
+	==============================*/
+header{
+	padding: 40px 0;
+
+}
+.container{
+	width:90%;
+	margin:0 auto;
+	
+}
+.navber{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+}
+nav ul{
+
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+
+}
+nav ul li a{
+	font-weight:400;
+	padding:0 30px;
+
+}
+nav ul li :last-child a{
+	padding:0;
+
+}
+nav ul li a:hover{
+	color:#000000;
+	transition: .3s all ease-in-out;
+
+}
+
+
+
+
+
+
+	/*==============================
+		HEADER END HERE
+	================================*/
+	/*==============================
+		BANNER START HERE
+	================================*/
+	.banner{
+		min-height: 500px;
+		background-image: url(../images/banner-min.jpg);
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-position: center;
+
+	}
+
+
+
+
+
+
+
+	/*==============================
+		BANNER END HERE
+	================================*/
+	/*==============================
+		FIRST POST START HERE
+	================================*/
+	.first-post{
+		padding: 100px 0;
+	}
+	.sec-container{
+		width: 80%;
+		margin: 0 auto;
+	}
+	.categories h4{
+		font-size: 14px;
+		line-height: 20px;
+		text-transform: uppercase;
+		padding: 15px 0;
+
+	}
+	.title h2{
+		padding: 30px 0;
+	}
+	.comment h4{
+		padding: 30px 0;
+	}
+
+
+
+
+	/*==============================
+		FIRST POST END HERE
+	================================*/
+
+	/*==============================
+		 	POST STYLE 
+	================================*/
+	#lifestyle{
+		padding:50px 0;
+	}
+	.lifestyle-post{
+		display:flex;
+		justify-content: space-between;
+
+	}
+	.lifestyle-post .post{
+		width:45%;
+	}
+	.post .thumbnail img{
+		width: 100%;
+		padding-bottom: 25px;
+
+	}
+	.lifestyle-post .post .categories{
+		padding: : 30px 0 20px;
+	}
+	.lifestyle-post .post .title h2{
+		padding: 0;
+	}
+	.lifestyle-post .post .content p{
+		margin:0;
+		padding: 20px 0 30px;
+	}
+	/*==============================
+		 	Newsletter 
+	================================*/
+	#newsletter{
+		background-color: #f0f0f0;
+		padding: 75px 0;
+	}
+	.newsletter{
+		margin:0 auto;
+		text-align:center;
+	}
+	.newsletter .title h2{
+		color:#333;
+		font-weight:700;
+	}
+	.newsletter form{
+		width:410px;
+		margin: 0 auto;
+	}
+	input[type="email"]{
+		width: 100%;
+		border: none;
+		border-bottom: 2px solid #000;
+		padding: 15px 15px 15px 10px;
+		background-color:transparent;
+		
+	}
+	input[type="email"]::placeholder{
+		color:#626262; 
+		font-family:'Playfair Display', serif;
+		font-size:14px;
+		line-height:20px;
+	}
+	input[type="email"]:focus{
+		outline: 0;
+
+	}
+	form{
+		position: relative;
+
+	}
+	.form-button{
+		border:none;
+		cursor:pointer;
+		position: absolute;
+		top:16px;
+		right:-25px;
+	}
+	.form-button:focus{
+		outline:0;
+	}
+	/*==============================
+		 	Load More Button
+	================================*/
+	#load-more{
+		padding: 100px 0 400px;
+	}
+	.load-more{
+		text-align:center;
+	}
+	.load-more button{
+		font-family:'Playfair Display', serif;
+		font-size:20px;
+		line-height:20px;
+		color:#626262;
+		border:1px solid #626262;
+		background-color: transparent;
+		padding: 0;
+		padding: 20px 35px;
+		cursor: pointer;
+
+	}
+	.load-more button:hover{
+		color:#000;
+		border-color: #000;
+		transition:.3s all ease-in-out;
+
+
+	}
+	.load-more button:focus{
+		outline:0;
+	}
+	/*==============================
+		 	Footer Start Here
+	================================*/
+	footer{
+		background-color:#f0f0f0;
+		padding: 40px 0;
+	}
+	.footer{
+		display: flex;
+
+	}
+	.legal, .social{
+		width:50%;
+	}
+	.legal ul {
+		padding:0;
+	}
+	.legal  ul li{
+		list-style:none;
+		display:inline-block;
+
+	}
+	.legal ul li a{
+		font-family:'Playfair Display', serif;
+		font-size:14px;
+		line-height:25px;
+		color:#000;
+		padding-right: 15px;
+
+	}
+	.social{
+		text-align:right;
+
+	}
+	.legal ul{
+		padding:0;
+	}
+	.social ul li{
+		list-style:none;
+		display:inline-block;
+
+	}
+	.social ul li a{
+		font-size:16px;
+		color:#626262;
+		padding-left:15px;
+		transition:.3s all ease-in-out;
+
+	}
+	.social ul li:first-child{
+		font-size:14px;
+		color:#000;
+
+	}
+	.social ul li a:hover{
+		color:#000;
+
+	}
+	
